@@ -9,9 +9,6 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
-# Generate a feed
-page '/feed.xml', layout: false
-
 # Define 404 page
 page '/404.html', directory_index: false
 
@@ -21,10 +18,10 @@ page '/404.html', directory_index: false
 # Activate directory indexes for pretty urls
 activate :directory_indexes
 
-activate :title, site: 'Middleman Boilerplate'
+activate :title, site: 'Where is Dana today?'
 
 # Active sitemap generator
-set :url_root, 'http://www.example.com'
+set :url_root, 'http://whereisdana.today'
 activate :search_engine_sitemap,
   default_change_frequency: 'weekly',
   exclude_attr: 'private'
