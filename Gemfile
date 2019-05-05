@@ -7,9 +7,6 @@ gem 'awesome_print'
 # the static website generator
 gem 'middleman', '~> 4.3'
 
-# this extension adds blog-specific functionality
-gem 'middleman-blog'
-
 # for making development easier
 gem 'middleman-livereload'
 
@@ -27,9 +24,6 @@ gem 'middleman-minify-html'
 
 # for uploading to S3
 gem 's3_website'
-
-# For feed.xml.builder
-gem 'builder'
 
 # For parsing Markdown
 gem 'redcarpet'
